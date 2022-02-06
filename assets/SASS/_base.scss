@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'larish';
+    src: url(../fonts/LarishNeueSemibold.woff);
+}
+a{
+    text-decoration: none;
+    color:$color-light;
+}
+.bg-color{
+    background-color: #000;
+    color: #fff;
+}
+//font-family: 'Work Sans', sans-serif;
+.btn{
+    padding: 2% 4%;
+    border: 1px solid #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem;
+    transition: all .3s ease-in;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
