@@ -348,8 +348,8 @@ header nav {
 .poppy-bear .circle-img {
   width: 33%;
   position: absolute;
-  top: -13.5rem;
-  left: 77%;
+  top: -17.5rem;
+  left: 79%;
 }
 .poppy-bear .circle-img img {
   width: 100%;
@@ -386,11 +386,20 @@ header nav {
     padding-top: 5%;
     padding-bottom: 0%;
   }
+  .golden-bear .left, .poppy-bear .left {
+    width: 80%;
+  }
+  .golden-bear .left div, .poppy-bear .left div {
+    width: 100%;
+  }
   .golden-bear .left div p, .poppy-bear .left div p {
     font-size: 1rem;
   }
   .golden-bear .left div h3, .poppy-bear .left div h3 {
     font-size: 1.6rem;
+  }
+  .golden-bear .right, .poppy-bear .right {
+    width: 80%;
   }
   .golden-bear .right p, .poppy-bear .right p {
     font-size: 1rem;
