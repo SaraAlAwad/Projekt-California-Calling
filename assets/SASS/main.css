@@ -71,6 +71,9 @@ header nav {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
   header section {
     height: 50vh;
   }
@@ -416,6 +419,7 @@ header nav {
 .join {
   height: 80vh;
   position: relative;
+  overflow: hidden;
 }
 .join-text {
   width: 42%;
@@ -445,7 +449,6 @@ header nav {
   position: absolute;
   top: 29%;
   left: 35%;
-  overflow: hidden;
 }
 .join .banner .content {
   height: 100%;

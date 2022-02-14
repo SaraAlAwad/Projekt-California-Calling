@@ -1,6 +1,7 @@
 .join{
     height: 80vh;
     position: relative;
+    overflow: hidden;
     &-text{
         width: 42%;
         margin: 0 8% 3%;
@@ -29,7 +30,6 @@
             position: absolute;
             top: 29%;
             left:35%;
-            overflow: hidden;
             
             .content{
                 height: 100%;

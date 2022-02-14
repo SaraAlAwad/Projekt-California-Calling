@@ -39,7 +39,9 @@ header{
     }
 }
 @media screen and (max-width:600px){
+// responsive design needs more work
     header{
+        width: 100%;
     section{
         height: 50vh;
         article{
